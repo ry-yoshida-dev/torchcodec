@@ -25,3 +25,24 @@ from ._video_decoder import CpuFallbackStatus, VideoDecoder  # noqa
 from ._wav_decoder import WavDecoder  # noqa
 
 SimpleVideoDecoder = VideoDecoder
+
+__all__ = [
+    "AudioStreamMetadata",
+    "VideoStreamMetadata",
+    "AudioDecoder",
+    "get_nvdec_cache_capacity",
+    "set_cuda_backend",
+    "set_nvdec_cache_capacity",
+    "decode_avif",
+    "decode_gif",
+    "decode_heic",
+    "decode_image",
+    "decode_jpeg",
+    "decode_png",
+    "decode_webp",
+    "ImageReadMode",
+    "CpuFallbackStatus",
+    "VideoDecoder",
+    "WavDecoder",
+    "SimpleVideoDecoder",
+]
