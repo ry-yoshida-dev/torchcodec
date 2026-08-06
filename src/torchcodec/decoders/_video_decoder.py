@@ -331,7 +331,7 @@ class VideoDecoder:
         )
         return frame_data
 
-    def __getitem__(self, key: numbers.Integral | slice) -> Tensor:
+    def __getitem__(self, key: int | slice) -> Tensor:
         """Return frame or frames as tensors, at the given index or range.
 
         .. note::
